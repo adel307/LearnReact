@@ -1,13 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-
-function MyButton () {
-  return (
-    <>
-      <button> adel button</button>
-    </>
-  );
-}
+import MyButton from './MyButton.js'
 
 function App() {
   return (
