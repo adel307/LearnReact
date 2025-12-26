@@ -1,6 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
 
+function MyButton () {
+  return (
+    <>
+      <button> adel button</button>
+    </>
+  );
+}
+
 function App() {
   return (
     <div className="App">
@@ -18,6 +26,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <MyButton/>
     </div>
   );
 }
