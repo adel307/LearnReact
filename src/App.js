@@ -24,9 +24,9 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
+          <MyButton/>
         </a>
       </header>
-      <MyButton/>
     </div>
   );
 }
