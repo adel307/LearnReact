@@ -1,13 +1,23 @@
 .SideBarStyle {
   background-color: red;
-  font-size: "20px";
   box-shadow: 10px 10px 10px black;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* إنشاء عمودين متساويين */
+  justify-items: center;
+  gap: 10px; 
+  width: 300px; 
 }
 
 .SideBarStyle > button {
-  /* (100% / 2) - المسافة بين العناصر */
-  width: calc(50% - 5px); 
-  box-sizing: border-box; /* لضمان حساب العرض بدقة مع الـ border */
+  background-color: rgb(32, 37, 175);
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 10px;
+  cursor: pointer;
+  width: 50%;
+  height: 50%;
+  border-radius: 50px;
 }
 
 .Active {

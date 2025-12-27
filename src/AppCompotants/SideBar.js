@@ -14,7 +14,7 @@ function SideBar () {
 
   for (let i =0 ; i<5 ; i++){
     buttons.push(
-      <button onClick={SayHallo} > {content.content} </button>
+      <button key={i} onClick={SayHallo} > {content.content} </button>
     );
   }
   
