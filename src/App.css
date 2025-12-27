@@ -42,4 +42,5 @@
 .Content {
   display: flex;
   gap: 10px; /* لإضافة مسافة بين العناصر */
+  justify-content: center;
 }
