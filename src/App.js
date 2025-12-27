@@ -17,8 +17,8 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
-          <MyButton/>
         </a>
+        <MyButton/>
       </header>
     </div>
   );
