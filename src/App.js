@@ -1,15 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
-import MyButton from './AppCompotants/MyButton.js'
+import SideBar from './AppCompotants/SideBar.js'
 import Header from './AppCompotants/header.js'
 import Posts from './AppCompotants/Posts.js'
 
 function App() {
   return (
     <>
-      <div className="App">
+      <div className={"App"}>
         <Header/>
-        <Posts/>
+        <div className={"Content"}>
+          <Posts/>
+          <SideBar/>
+        </div>
 
       </div>
     </>

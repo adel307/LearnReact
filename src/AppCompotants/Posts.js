@@ -2,8 +2,10 @@ import './Posts.css';
 
 function Post () {
     return (
-        <div>
-            
+        <div className={"PostStyle"}>
+            <p> This is the post title</p>
+            <p> . </p>
+            <p> This is the post body </p>
         </div>
     )
 }
@@ -11,7 +13,7 @@ function Post () {
 function Posts () {
     return (
         <>
-        
+            <Post/>
         </>
     )
 }
