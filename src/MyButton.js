@@ -1,3 +1,4 @@
+import './App.css';
 let content = {
   name : "adel",
   number : "1",
