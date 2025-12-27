@@ -12,7 +12,10 @@ let SayHallo = function () {
 function MyButton () {
   return (
     <>
-      <button className='MyButtonClass'  onClick={SayHallo} > {content.content} </button>
+      {
+        ( content.name === "adel" ) &&
+        (<button className='MyButtonClass'  onClick={SayHallo} > {content.content} </button>)
+      }
     </>
   );
 }
