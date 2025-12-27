@@ -1,4 +1,4 @@
-import './App.css';
+import './MyButton.css';
 let content = {
   name : "adel",
   number : "1",
@@ -8,12 +8,6 @@ let content = {
 let SayHallo = function () {
   alert("hallo")
 }
-
-// let MyButtonStyle = {
-//   backgroundColor : "red",
-//   fontSize : "20px",
-//   boxShadow : "10px 10px 10px black",
-// }
 
 function MyButton () {
   return (
