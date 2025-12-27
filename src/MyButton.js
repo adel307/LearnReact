@@ -9,16 +9,16 @@ let SayHallo = function () {
   alert("hallo")
 }
 
-let MyButtonStyle = {
-  backgroundColor : "red",
-  fontSize : "20px",
-  boxShadow : "10px 10px 10px black",
-}
+// let MyButtonStyle = {
+//   backgroundColor : "red",
+//   fontSize : "20px",
+//   boxShadow : "10px 10px 10px black",
+// }
 
 function MyButton () {
   return (
     <>
-      <button style={MyButtonStyle} onClick={SayHallo} > {content.content} </button>
+      <button className='MyButtonClass'  onClick={SayHallo} > {content.content} </button>
     </>
   );
 }
