@@ -1,9 +1,15 @@
 import './Posts.css';
 
+function PostTitle () {
+    return (
+        <p className={"PostTitleStyle"}> This is the post title</p>
+    )
+}
+
 function Post () {
     return (
         <div className={"PostStyle"}>
-            <p className={"PostTitleStyle"}> This is the post title</p>
+            <PostTitle/>
             <p> This is the post body </p>
         </div>
     )

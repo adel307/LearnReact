@@ -8,21 +8,3 @@
   width: 300px; 
   height: max-content;
 }
-
-.SideBarStyle > button {
-  background-color: rgb(32, 37, 175);
-  color: white;
-  border: none;
-  padding: 10px;
-  font-size: 10px;
-  cursor: pointer;
-  width: 50%;
-  height: 50px;
-  border-radius: 50px;
-}
-
-.SideBarStyle > button:hover {
-  background-color: rgb(113, 5, 113); /* تغيير اللون لدرجة أغمق */
-  opacity: 0.8;             /* تقليل الشفافية قليلاً */
-  transform: scale(1.05);   /* تكبير الزر بنسبة بسيطة جداً (حركة اختيارية) */
-}

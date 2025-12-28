@@ -1,27 +1,21 @@
 import './SideBar.css';
-let content = {
-  name : "adel",
-  number : "1",
-  content : "my button",
-}
-
-let SayHallo = function () {
-  alert("hallo")
-}
+import Button from './Button.js';
 
 function SideBar () {
-  let buttons = [];
+  let ButtonsList = [];
+  let ButtonsNumber = 5;
 
-  for (let i =0 ; i<5 ; i++){
-    buttons.push(
-      <button key={i} onClick={SayHallo} > {content.content} </button>
+  for (ButtonsNumber ; ButtonsNumber ; ButtonsNumber--){
+    Button.key = ButtonsNumber
+    ButtonsList.push(
+      <Button/>
     );
   }
   
   return (
     <div className={"SideBarStyle"}>
       {
-        buttons
+        ButtonsList
       }
     </div>
   );
