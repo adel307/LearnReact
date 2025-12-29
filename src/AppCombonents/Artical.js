@@ -1,6 +1,7 @@
 import './Artical.css';
 
-function Artical () {
+function Artical (Props) {
+    console.log(Props)
     return (
         <>
             <div className="Artical">

@@ -18,8 +18,8 @@ function App() {
         >
           Learn React
         </a>
-        <Artical/>
-        <Artical/>
+        <Artical name = {"adel"}/>
+        <Artical href = {"link"}/>
         <Artical/>
         <Artical/>
       </header>
