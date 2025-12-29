@@ -2,7 +2,11 @@ import './header.css';
 
 function Header () {
     return (
-        <h4 className={"HeaderStyle"}>Tarmeez react course</h4>
+        <div className={"HeaderStyle"}>
+            <h4 className={"HeaderTitle"} >Tarmeez react course</h4>
+            <p className={"HeaderContent"} >The first project</p>
+
+        </div>
     )
 }
 

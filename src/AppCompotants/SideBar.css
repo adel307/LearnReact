@@ -1,7 +1,21 @@
+.SideBarHeaderStyle {
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: red;
+    border: 5px solid red;
+    color:rgb(16, 6, 148);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom: 1px solid rgb(16, 6, 148);
+    justify-items: center;
+    font-size: 50px;
+}
+
 .SideBarStyle {
   background-color: red;
   box-shadow: 10px 10px 10px black;
-  border-radius: 25px ;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* إنشاء عمودين متساويين */
   justify-items: center;

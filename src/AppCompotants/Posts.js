@@ -26,6 +26,7 @@ function Posts () {
     let PostsList = [];
     
     for(let i = 0 ; i < 10 ; i++){
+        Post.key = i
         PostsList.push(
             <Post/>
         )
@@ -34,7 +35,6 @@ function Posts () {
         <div>
             <p className={"PostsContainerTitleStyle"}>Posts</p>
             <div className={"PostsContainerStyle"}>
-                
                 {
                     PostsList
                 }
