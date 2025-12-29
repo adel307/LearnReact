@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import Artical from './AppCombonents/Artical.js'
 import './App.css';
 
 function App() {
@@ -17,6 +18,10 @@ function App() {
         >
           Learn React
         </a>
+        <Artical/>
+        <Artical/>
+        <Artical/>
+        <Artical/>
       </header>
     </div>
   );
