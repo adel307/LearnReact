@@ -1,14 +1,13 @@
 import './Artical.css';
 
-function Artical (Props) {
-    console.log(Props)
+function Artical ({name,age,email,content = "no content"}) {
     return (
         <>
             <div className="Artical">
-                <p>{Props.name}</p>
-                <p>{Props.age}</p>
-                <p>{Props.email}</p>
-                <p>{Props.content}</p>
+                <p>{name}</p>
+                <p>{age}</p>
+                <p>{email}</p>
+                <p>{content}</p>
             </div>
         </>
     );
