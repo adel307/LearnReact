@@ -10,7 +10,14 @@ function Post () {
     return (
         <div className={"PostStyle"}>
             <PostTitle/>
-            <p> This is the post body </p>
+            <div className={"PostBodyStyle"}>
+                <p> This is the post body  This is the post body </p>
+                <p> This is the post body </p>
+                <p> This is the post body  This is the post body </p>
+                <p> This is the post body </p>
+                <p> This is the post body  This is the post body </p>
+                <p> This is the post body </p>
+            </div>
         </div>
     )
 }
@@ -25,7 +32,13 @@ function Posts () {
     }
     return (
         <div>
-            {PostsList}
+            <p className={"PostsContainerTitleStyle"}>Posts</p>
+            <div className={"PostsContainerStyle"}>
+                
+                {
+                    PostsList
+                }
+            </div>
         </div>
     )
 }

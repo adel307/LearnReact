@@ -3,7 +3,7 @@ import Button from './Button.js';
 
 function SideBar () {
   let ButtonsList = [];
-  let ButtonsNumber = 5;
+  let ButtonsNumber = 11;
 
   for (ButtonsNumber ; ButtonsNumber ; ButtonsNumber--){
     Button.key = ButtonsNumber
@@ -13,10 +13,13 @@ function SideBar () {
   }
   
   return (
-    <div className={"SideBarStyle"}>
+    <div>
+      <p className={"PostsContainerTitleStyle"}>Buttons</p>
+      <div className={"SideBarStyle"}>
       {
         ButtonsList
       }
+    </div>
     </div>
   );
 }

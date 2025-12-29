@@ -1,6 +1,7 @@
 .SideBarStyle {
   background-color: red;
   box-shadow: 10px 10px 10px black;
+  border-radius: 25px ;
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* إنشاء عمودين متساويين */
   justify-items: center;
