@@ -18,10 +18,10 @@ function App() {
         >
           Learn React
         </a>
-        <Artical name = {"adel"}/>
-        <Artical href = {"link"}/>
-        <Artical/>
-        <Artical/>
+        <Artical name = {"ade"} age = {"10"} email = {"ade@gmail.com"} content = {"content of ade card"}/>
+        <Artical name = {"ali"} age = {"20"} email = {"ali@gmail.com"} content = {"content of ali card"}/>
+        <Artical name = {"ase"} age = {"30"} email = {"ase@gmail.com"} content = {"content of ase card"}/>
+        <Artical name = {"git"} age = {"40"} email = {"git@gmail.com"} content = {"content of git card"}/>
       </header>
     </div>
   );
