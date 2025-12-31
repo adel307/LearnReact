@@ -1,19 +1,15 @@
 import './Posts.css';
 import PostTitle from './PostTitle.js'
+import PostBody from './PostBody.js'
 
-function Post ({post_title}) {
+function Post ({post_title,post_body}) {
     
     return (
 
         <div className={"PostStyle"}>
             <PostTitle Value = {post_title}/>
             <div className={"PostBodyStyle"}>
-                <p> This is the post body  This is the post body </p>
-                <p> This is the post body </p>
-                <p> This is the post body  This is the post body </p>
-                <p> This is the post body </p>
-                <p> This is the post body  This is the post body </p>
-                <p> This is the post body </p>
+                <PostBody Value = {post_body}/>
             </div>
         </div>
     )
@@ -24,7 +20,6 @@ function Posts () {
 
     let PostsTitlesList = [
         <>
-            <p>20</p>
             <p>Tarmeez acadimy</p>
         </>,
         <>
@@ -32,14 +27,25 @@ function Posts () {
         </>,
         <>
             <p>Post3</p>
-        </>
+        </>,
+    ]
 
+    let PostsBodysList = [
+        <>
+            <p> أكاديمية متخصصة في تعليم البرمجة بكافة فروعها </p>
+        </>,
+        <>
+            <p>This is the Hallo world artical </p>
+        </>,
+        <>
+            <p>Post3 content</p>
+        </>,
     ]
     
     for(let i = 0 ; i < 3 ; i++){
         Post.key = i
         PostsList.push(
-            <Post post_title = {PostsTitlesList[i]}/>
+            <Post post_title = {PostsTitlesList[i]} post_body = {PostsBodysList[i]}/>
         )
     }
     return (
@@ -53,9 +59,5 @@ function Posts () {
         </div>
     )
 }
-
-
-
-
 
 export default Posts ;
