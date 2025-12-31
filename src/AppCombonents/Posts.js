@@ -41,11 +41,11 @@ function Posts () {
             <p>Post3 content</p>
         </>,
     ]
-    
-    for(let i = 0 ; i < 3 ; i++){
-        Post.key = i
+
+    for(let PostsNumber = 0 ; PostsNumber < PostsBodysList.length ; PostsNumber--){
+        Post.key = PostsNumber
         PostsList.push(
-            <Post post_title = {PostsTitlesList[i]} post_body = {PostsBodysList[i]}/>
+            <Post post_title = {PostsTitlesList[PostsNumber]} post_body = {PostsBodysList[PostsNumber]}/>
         )
     }
     return (
