@@ -42,7 +42,7 @@ function Posts () {
         </>,
     ]
 
-    for(let PostsNumber = 0 ; PostsNumber < PostsBodysList.length ; PostsNumber--){
+    for(let PostsNumber = 0 ; PostsNumber < PostsBodysList.length ; PostsNumber++){
         Post.key = PostsNumber
         PostsList.push(
             <Post post_title = {PostsTitlesList[PostsNumber]} post_body = {PostsBodysList[PostsNumber]}/>
