@@ -1,21 +1,26 @@
 import './SideBar.css';
 import Button from './Button.js';
+import myImage from './MyImage.png'
 
 function SideBar () {
   let ButtonsList = [];
 
-  for (let ButtonsNumber = 3 ; ButtonsNumber ; ButtonsNumber--){
+  for (let ButtonsNumber = 4 ; ButtonsNumber ; ButtonsNumber--){
 
     let ButtonsContintList = [
-        <>
-            <p> 1 </p>
-        </>,
-        <>
-            <p> 2 </p>
-        </>,
-        <>
-            <p> 3 </p>
-        </>,
+      <>
+        <p> ⚡⚡⚡ جديد </p>
+      </>,
+      <>
+        <p> الأكثر قرائة </p>
+      </>,
+      <>
+        <div className={"SecondButtonStyle"}>
+          <p> الأكثر قرائة </p>
+          <p></p>
+          <img src={myImage} alt="وصف الصورة" style={{ width: '120px', high: '240px' }}/>
+        </div>
+      </>,
     ]
 
     Button.key = ButtonsNumber;

@@ -5,12 +5,12 @@
   padding: 10px;
   font-size: 10px;
   cursor: pointer;
-  width: 50%;
-  height: 50px;
+  width: max-content;
+  height: max-content;
   border-radius: 50px;
 }
 
-.ButtonStyle:hover {
+.ButtonStyle:hover { 
   background-color: rgb(113, 5, 113); /* تغيير اللون لدرجة أغمق */
   opacity: 0.8;             /* تقليل الشفافية قليلاً */
   transform: scale(1.05);   /* تكبير الزر بنسبة بسيطة جداً (حركة اختيارية) */
