@@ -1,6 +1,7 @@
 import './SideBar.css';
 import Button from './Button.js';
-import myImage from './MyImage.png'
+import myImage from '/home/adel101/my_work/react/React.js/react_project2/public/MyImage.png'
+import myImage2 from '/home/adel101/my_work/react/React.js/react_project2/public/MyImage.png'
 
 function SideBar () {
   let ButtonsList = [];
@@ -13,6 +14,7 @@ function SideBar () {
       </>,
       <>
         <p> الأكثر قرائة </p>
+        <img src={myImage2} alt="وصف الصورة" style={{ width: '120px', high: '120px' }}/>
       </>,
       <>
         <div className={"SecondButtonStyle"}>
