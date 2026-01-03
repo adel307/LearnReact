@@ -1,12 +1,10 @@
 import './SideBar.css';
 import Button from './Button.js';
-import myImage from '/home/adel101/my_work/react/React.js/react_project2/public/MyImage.png'
-import myImage2 from '/home/adel101/my_work/react/React.js/react_project2/public/MyImage.png'
 
 function SideBar () {
   let ButtonsList = [];
 
-  for (let ButtonsNumber = 4 ; ButtonsNumber ; ButtonsNumber--){
+  for (let ButtonsNumber = 3 ; ButtonsNumber ; ButtonsNumber--){
 
     let ButtonsContintList = [
       <>
@@ -14,13 +12,13 @@ function SideBar () {
       </>,
       <>
         <p> الأكثر قرائة </p>
-        <img src={myImage2} alt="وصف الصورة" style={{ width: '120px', high: '120px' }}/>
+        <img src={process.env.PUBLIC_URL +"/favicon.ico"} alt="وصف الصورة" style={{ width: '120px', high: '120px' }}/>
       </>,
       <>
-        <div className={"SecondButtonStyle"}>
-          <p> الأكثر قرائة </p>
-          <p></p>
-          <img src={myImage} alt="وصف الصورة" style={{ width: '120px', high: '240px' }}/>
+        <div className={process.env.PUBLIC_URL +"SecondButtonStyle"}>
+          <p> مقالات مميزية </p>
+          <p> ☆☆☆ </p>
+          <img src={"/MyImage.png"} alt="وصف الصورة" style={{ width: '120px', high: '240px' }}/>
         </div>
       </>,
     ]
