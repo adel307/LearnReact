@@ -4,7 +4,7 @@ function Header () {
     return (
         <div className={"HeaderStyle"}>
             <h4 className={"HeaderTitle"} >Tarmeez react course</h4>
-            <p className={"HeaderContent"} >The first project</p>
+            <p className={"HeaderContent"} >The second project</p>
 
         </div>
     )
