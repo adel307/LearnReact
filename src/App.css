@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   text-align: center;
+  height: max(100vh,max-content);
   background-color: rgb(16, 6, 148);
 }
 

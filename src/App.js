@@ -3,6 +3,19 @@ import SideBar from './AppCombonents/SideBar.js'
 import Header from './AppCombonents/header.js'
 import Posts from './AppCombonents/Posts.js'
 
+function DisplaySideBar () {
+  let sidebar = false ;
+  if(sidebar === true){
+    return (
+      <SideBar/>
+    )
+  }
+  return(
+    <div></div>
+  )
+
+}
+
 function App() {
   return (
     <>
@@ -10,7 +23,8 @@ function App() {
         <Header/>
         <div className={"Content"}>
           <Posts/>
-          <SideBar/>
+          <DisplaySideBar/>
+          
         </div>
 
       </div>
