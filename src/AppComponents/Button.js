@@ -1,0 +1,20 @@
+import './Button.css';
+import { useState } from "react";
+
+function Button (){
+    console.log("rendar")
+    // console.log(useState(name))
+    let [name,SetName] = useState("adel");
+    
+    // console.log(SetNameValue)
+
+    function ButtonFunc (){
+        SetName("Adel101");
+    }
+    return (<>
+        <button onClick = {ButtonFunc}> click here </button>
+        <p>{name}</p>
+    </>)
+}
+
+export default Button ;
