@@ -9,7 +9,13 @@ function Button (){
     // console.log(SetNameValue)
 
     function ButtonFunc (){
-        SetName("Adel101");
+        if (name === "adel"){
+            SetName("Adel101");
+        }
+        else{
+            SetName("adel");
+        }
+        
     }
     return (<>
         <button onClick = {ButtonFunc}> click here </button>
